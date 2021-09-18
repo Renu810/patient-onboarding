@@ -1,0 +1,36 @@
+<app-home></app-home>
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <h2 align="center" style="  margin-bottom: 15px;
+    margin-top: 10px;">New Doctor ? Register here </h2>
+  <div class="row">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-7">
+  <form novalidate [formGroup]="doctorForm" (ngSubmit)="saveDoctor()" >
+  <table cellpadding="10" cellspacing="10" class="form-group">
+   <fieldset>
+    <tr><td>Doctor Name : </td><td><input  type="text" formControlName="doctorName" /></td>
+    <tr><td>Specialization : </td><td><input  type="text" formControlName="specialisation" /></td>
+    <tr><td>Email Id : </td><td><input  type="email" formControlName="email" /></td>
+    <tr><td>Phone Number : </td><td><input  type="number" formControlName="phoneNumber"/></td>
+    <tr><td>Password : </td><td><input  type="text" formControlName="password" /></td>
+    <!-- <tr><td>Confirm Password : </td><td><input  type="text" formControlName="" /></td> -->
+    </fieldset>
+    <tr><td><input type="submit" class="btn btn-success" value="SignUp"> </td>
+      <td><input type="reset" class="btn btn-primary" value="Clear">
+        <button class="btn btn-primary" style="margin: 8px;">
+          <a href="Home.html" style="color: white; text-decoration: none;">Back</a></button></td></tr>
+  </table>
+  </form>
+  </div>
+
+
+
+
+<div class="col-sm-1"></div>
+</div>
