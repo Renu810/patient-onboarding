@@ -29,7 +29,11 @@ To create this application, for frontend part I  used HTML, CSS, JavaScript ,Boo
 <p>Add postgresql databse.</p>
 <p>Ceate Angular project with Rounting.</p>
 <p>Open a browser and test wether the setup works or not by visiting the home page. </p>
-
+<h3>Contributors
+</h3><hr>
+<p>Priyanshu Jain</p>
+<p>Rudra Pratap Padhi</p>
+<p>Printam Tripathi.</p>
 
 
 
