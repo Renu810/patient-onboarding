@@ -33,7 +33,7 @@ To create this application, for frontend part I  used HTML, CSS, JavaScript ,Boo
 </h3><hr>
 <p>Priyanshu Jain</p>
 <p>Rudra Pratap Padhi</p>
-<p>Printam Tripathi.</p>
+<p>Pritam Tripathi.</p>
 
 
 
